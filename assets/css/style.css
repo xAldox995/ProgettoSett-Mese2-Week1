@@ -27,13 +27,50 @@ ul {
     align-items: center;
 }
 
-ul li,button {
+ul li,
+button {
     margin-left: 30px;
 }
 
-button {
-    background-color: black;
+ul button {
+    background-color: #191919;
     color: white;
     padding: 5px 20px;
     border-radius: 20px;
+}
+
+
+.Mcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    background-color: #ffc017;
+}
+
+.Mcontainer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+div button {
+    background-color: #191919;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 20px;
+    margin-bottom: 75px;
+}
+
+div h1 {
+    font-family: 'Spectral', sans-serif;
+    font-size: 5rem;
+    flex-grow: 1;
+}
+
+div p {
+    flex-grow: 1;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
 }
