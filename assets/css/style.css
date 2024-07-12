@@ -163,24 +163,16 @@ article img{
     align-items: center; 
   }
 
+  .articles {
+    display: flex;
+    flex-direction: column;
+  }
   .content {
     padding: 20px;
 }
+
 .articleContent {
     display: flex;
-    margin-bottom: 20px;
-}
-.articleContent img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    margin-right: 20px;
-}
-.articleContent h3 {
-    margin: 0;
-    font-size: 18px;
-}
-.articleContent p {
-    margin: 5px 0;
-    color: gray;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
