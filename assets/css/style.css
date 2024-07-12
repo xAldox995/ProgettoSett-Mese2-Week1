@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: #ffc017;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+ul li,button {
+    margin-left: 30px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
