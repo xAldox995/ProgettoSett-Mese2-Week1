@@ -11,7 +11,9 @@ header {
     justify-content: space-around;
     align-items: center;
     height: 10vh;
+    border: 1px solid black;
 }
+
 
 
 nav {
@@ -46,6 +48,7 @@ ul button {
     justify-content: space-evenly;
     align-items: stretch;
     background-color: #ffc017;
+    border: 1px solid black;
 }
 
 .Mcontainer div {
